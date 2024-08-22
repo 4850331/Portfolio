@@ -1,0 +1,75 @@
+
+body, h1, h2, p, ul, li, form {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+/*corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    line-height: 1.6; /* Melhor legibilidade do texto */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #006c63; /* Cor de fundo clara */
+}
+
+/* Estilizando as seções */
+section {
+    background: #ecf8cbe7; /* Cor de fundo branca para cada seção */
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento entre seções */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra leve */
+    text-align: center;
+}
+
+/* Estilo para cabeçalhos */
+h1, h2 {
+    color: #333; /* Cor do texto dos cabeçalhos */
+    margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+/* Estilo para links */
+a {
+    color: #007bff; /* Cor azul para links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona o sublinhado ao passar o mouse */
+}
+
+/* Estilo para formulários */
+form {
+    display: flex; /*layout flexível */
+    flex-direction: column; /* Layout vertical dos campos */
+}
+
+label {
+    margin-bottom: 5px; /* Espaçamento inferior dos rótulos */
+}
+
+input, textarea {
+    padding: 10px; /* Espaçamento interno dos campos */
+    margin-bottom: 10px; /* Espaçamento inferior dos campos */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 4px; /* Bordas arredondadas dos campos */
+}
+
+button {
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 4px; /* Bordas arredondadas do botão */
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor de fundo mais escura ao passar o mouse */
+}

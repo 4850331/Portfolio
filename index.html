@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <link rel="stylesheet" href="estilo.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+    
+    <!-- Seção Sobre Mim -->
+    <section id="sobre-mim">
+       
+        
+        <h1>Sobre Mim</h1>
+        <p>Olá! Meu nome é Anderson Fortes Dias.<br> Sou apaixonado por programação, jogos tudo que está relacionado a tecnologia..</p>
+        <a href="index.html" target="_blank">Saiba mais sobre mim</a>
+    </section>
+
+    <!-- Seção Formação Educacional e Idiomas -->
+    <section id="formacao">
+        <h2>Formação Educacional e Idiomas</h2>
+        <p>Estou cursando Analise em desenvolvimento de sistemas pela Uninter termino em 2027 <br>Nivel de ingles basico.</p>
+        
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <ul>
+            <li><a href="Formulario.html" target="_blank">Meu primeiro Formulario</a></li>
+            <li><a href="project.py" target="_blank">Um sistema de registro</a></li>
+           
+        </ul>
+        
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="mailto:seu-email@dominio.com" method="post" enctype="text/plain">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
